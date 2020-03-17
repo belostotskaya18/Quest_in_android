@@ -1,0 +1,13 @@
+package com.example.quest_in_android;
+
+public class Characters {
+    public int score;
+    public int age;
+    public String name;
+    public Characters (int age, String name){
+        this.age = age;
+        this.name = name;
+        this.score = 0;
+
+    }
+}
